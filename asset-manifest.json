@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/BeerShopReady/static/css/main.61f29542.css",
+    "main.js": "/BeerShopReady/static/js/main.da971332.js",
+    "static/media/LogoBeer.png": "/BeerShopReady/static/media/LogoBeer.76554aabc7687631e7dc.png",
+    "static/media/BeerTopic.jpg": "/BeerShopReady/static/media/BeerTopic.cb13d18d3e9b988df167.jpg",
+    "static/media/LR.jpg": "/BeerShopReady/static/media/LR.160a8b8bd954d4af1f59.jpg",
+    "index.html": "/BeerShopReady/index.html",
+    "main.61f29542.css.map": "/BeerShopReady/static/css/main.61f29542.css.map",
+    "main.da971332.js.map": "/BeerShopReady/static/js/main.da971332.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.61f29542.css",
+    "static/js/main.da971332.js"
+  ]
+}
