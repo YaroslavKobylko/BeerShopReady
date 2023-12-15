@@ -1,0 +1,90 @@
+.contact-modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    transition: background-color 0.3s ease;
+  }
+
+  .contact-modal .LogMessage{
+    color: white;
+    font-size: 2rem;
+  }
+  
+  .contact-modal.sent {
+    background-color: rgba(0, 128, 0, 0.8);
+  }
+  
+  .contact-modal form {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .contact-modal h1 {
+    margin-bottom: 20px;
+  }
+  
+  .contact-modal label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  .contact-modal input,
+  .contact-modal textarea {
+    width: 90%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .contact-modal button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+
+  .contact-modal .CheckButton{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+  }
+  
+  .contact-modal button:hover {
+    background-color: #0056b3;
+  }
+  
+  .success-message {
+    text-align: center;
+  }
+  
+  .success-message p {
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+  
+  .success-message button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .success-message button:hover {
+    background-color: #0056b3;
+  }

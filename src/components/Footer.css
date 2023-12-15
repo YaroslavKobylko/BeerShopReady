@@ -1,0 +1,27 @@
+footer {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .author-info {
+    display: flex;
+    align-items: center;
+  }
+  
+  .author-info p {
+    margin-right: 10px;
+  }
+  
+  .author-info a svg {
+    width: 24px;
+    height: 24px;
+    fill: white;
+  }
+  
+  p {
+    margin: 0;
+  }
